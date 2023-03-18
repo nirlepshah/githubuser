@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelector('#container').insertAdjacentHTML('afterbegin', card)
       console.log(data);
     } else {
-      alert('Username not found')
+      alert('Username you entered is not found')
     }
   })
 
